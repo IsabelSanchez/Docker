@@ -1,0 +1,253 @@
+time="2022-07-19T22:37:49Z" level="info" msg="DockerApplication: Starting"
+time="2022-07-19T22:37:49Z" level="info" msg="GoBackend: Launching Process /Applications/Docker.app/Contents/MacOS/com.docker.backend -watchdog -native-api"
+time="2022-07-19T22:37:49Z" level="info" msg="GoBackend: com.docker.backend launched with PID 7970"
+time="2022-07-19T22:37:49Z" level="info" msg="GoBackend: status Pinging"
+time="2022-07-19T22:37:49Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (e9c9b3dd) C->S GET /ping"
+time="2022-07-19T22:37:49Z" level="info" msg="CrashReport: stderr redirected to /Users/isabel.sanchez/Library/Group Containers/group.com.docker/DockerAppStderr.txt"
+time="2022-07-19T22:37:49Z" level="error" msg="IPCClient: 4e59a7c6-GoBackend (e9c9b3dd) C<-S GET /ping (4.366994ms): Request failed: no response"
+time="2022-07-19T22:37:49Z" level="info" msg="DockerApplication: Docker.app starting for isabel.sanchez"
+time="2022-07-19T22:37:49Z" level="info" msg="applicationDidFinishLaunching: options.restart = false"
+time="2022-07-19T22:37:49Z" level="info" msg="AppDelegate: changed currentDirectoryPath to: /Users/isabel.sanchez/Library/Containers/com.docker.docker/Data"
+time="2022-07-19T22:37:49Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (4b8521c6) C->S GET /ping"
+time="2022-07-19T22:37:49Z" level="error" msg="IPCClient: 4e59a7c6-GoBackend (4b8521c6) C<-S GET /ping (2.804041ms): Request failed: no response"
+time="2022-07-19T22:37:49Z" level="info" msg="GoBackend: ⇨ http server started on vpnkit.port.sock
+"
+time="2022-07-19T22:37:50Z" level="info" msg="GoBackend: ⇨ http server started on backend.sock
+"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (214e03c0) C->S GET /ping"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (214e03c0) C<-S GET /ping (7.203937ms): {""serverTime"":1658270270240516000}"
+time="2022-07-19T22:37:50Z" level="info" msg="GoBackend: status Pinged"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (61f5d50a) C->S GET /settings"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (61f5d50a) C<-S GET /settings (28.592944ms): {""onlyMarketplaceExtensions"":false,""licenseTermsVersion"":0,""vpnKitMaxPortIdleTime"":""..."",""useWindowsContainers"":false,""memoryMiB"":8092,""diskQcowCompactAfter"":262144,""disableTips"":false,""dataFolder"":""/Users/isabel.sanchez/Library/Containers/com.docker.docker/Data/vms/0/data"",""firstLaunchTime"":1658270269,""displayedTutorial"":false,""useVirtualizationFramework"":false,""diskFlush"":""os"",""useVpnkit"":true,""vpnKitMaxConnections"":2000,""diskTRIM"":true,""displayedDeprecate1014"":false,""kubernetesEnabled"":false,""updateAvailableTime"":0,""latestBannerKey"":"""",""diskStats"":"""",""useCredentialHelper"":true,""socksProxyPort"":0,""vpnkitCIDR"":""..."",""openUIOnStartupDisabled"":false,""activeOrganizationName"":"""",""settingsVersion"":17,""kubernetesInitialInstallPerformed"":false,""proxyHttpMode"":""system"",""lastLoginDate"":0,""disableUpdate"":false,""showExtensionsSystemContainers"":false,""swapMiB"":1024,""deprecatedCgroupv1"":false,""extensionsEnabled"":true,""displayedElectronPopup"":[],""diskQcowKeepErased"":262144,""autoDownloadUpdates"":false,""cpus"":4,""autoStart"":false,""backupData"":false,""useVirtualizationFrameworkVirtioFS"":false,""showKubernetesSystemContainers"":false,""useNightlyBuildUpdates"":false,""vpnKitMTU"":1500,""disableHardwareAcceleration"":false,""overrideProxyExclude"":""..."",""vpnKitTransparentProxy"":true,""acceptCanaryUpdates"":false,""vpnKitAllowedBindAddresses"":""0.0.0.0"",""dockerAppLaunchPath"":"""",""credentialHelper"":""docker-credential-osxkeychain"",""diskSizeMiB"":61035,""filesharingDirectories"":[""/Users"",""/Volumes"",""/private"",""/tmp"",""/var/folders""],""tipLastId"":""..."",""diskQcowRuntimeAsserts"":false,""updatePopupAppearanceTime"":0,""analyticsEnabled"":true,""overrideProxyHttp"":""..."",""overrideProxyHttps"":""..."",""displayRestartDialog"":true,""tipLastViewedTime"":0,""wslEngineEnabled"":false}"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (b9d5d651) C->S POST /settings"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (b9d5d651) C<-S POST /settings (92.943072ms): {""filesharingDirectories"":[""/Users"",""/Volumes"",""/private"",""/tmp"",""/var/folders""],""updateAvailableTime"":0,""diskQcowRuntimeAsserts"":false,""onlyMarketplaceExtensions"":false,""diskQcowKeepErased"":262144,""updatePopupAppearanceTime"":0,""vpnKitMTU"":1500,""credentialHelper"":""docker-credential-osxkeychain"",""firstLaunchTime"":1658270269,""analyticsEnabled"":true,""diskTRIM"":true,""vpnKitMaxPortIdleTime"":""..."",""acceptCanaryUpdates"":false,""diskFlush"":""os"",""displayRestartDialog"":true,""latestBannerKey"":"""",""disableHardwareAcceleration"":false,""overrideProxyHttp"":""..."",""overrideProxyHttps"":""..."",""useWindowsContainers"":false,""autoDownloadUpdates"":false,""dataFolder"":""/Users/isabel.sanchez/Library/Containers/com.docker.docker/Data/vms/0/data"",""wslEngineEnabled"":false,""displayedTutorial"":false,""cpus"":4,""diskSizeMiB"":61035,""swapMiB"":1024,""useNightlyBuildUpdates"":false,""tipLastViewedTime"":0,""settingsVersion"":17,""openUIOnStartupDisabled"":false,""kubernetesInitialInstallPerformed"":false,""diskQcowCompactAfter"":262144,""useVpnkit"":true,""vpnKitMaxConnections"":2000,""activeOrganizationName"":"""",""displayedElectronPopup"":[],""kubernetesEnabled"":false,""deprecatedCgroupv1"":false,""dockerAppLaunchPath"":""/Applications/Docker.app"",""lastLoginDate"":0,""backupData"":false,""socksProxyPort"":0,""vpnKitAllowedBindAddresses"":""0.0.0.0"",""tipLastId"":""..."",""displayedDeprecate1014"":false,""useVirtualizationFramework"":false,""showExtensionsSystemContainers"":false,""useCredentialHelper"":true,""memoryMiB"":8092,""proxyHttpMode"":""system"",""useVirtualizationFrameworkVirtioFS"":false,""disableUpdate"":false,""diskStats"":"""",""vpnKitTransparentProxy"":true,""disableTips"":false,""licenseTermsVersion"":0,""autoStart"":false,""showKubernetesSystemContainers"":false,""extensionsEnabled"":true,""vpnkitCIDR"":""..."",""overrideProxyExclude"":""...""}"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: b94e904a-GoBackend (8ce77370) C->S POST /analytics/identify"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: b94e904a-GoBackend (8ce77370) C<-S POST /analytics/identify (8.619070ms): OK"
+time="2022-07-19T22:37:50Z" level="info" msg="GoBackend: POST /analytics/identify OK"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: b94e904a-GoBackend (c69013c5) C->S POST /analytics/track"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: b94e904a-GoBackend (c69013c5) C<-S POST /analytics/track (7.486939ms): OK"
+time="2022-07-19T22:37:50Z" level="info" msg="AppDelegate: Bundle path: /Applications/Docker.app"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (d902d646) C->S GET /settings"
+time="2022-07-19T22:37:50Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (d902d646) C<-S GET /settings (27.750015ms): {""kubernetesEnabled"":false,""onlyMarketplaceExtensions"":false,""settingsVersion"":17,""backupData"":false,""updatePopupAppearanceTime"":0,""vpnKitMTU"":1500,""updateAvailableTime"":0,""swapMiB"":1024,""overrideProxyExclude"":""..."",""displayedTutorial"":false,""displayRestartDialog"":true,""openUIOnStartupDisabled"":false,""vpnKitMaxConnections"":2000,""extensionsEnabled"":true,""overrideProxyHttp"":""..."",""diskStats"":"""",""diskSizeMiB"":61035,""overrideProxyHttps"":""..."",""tipLastViewedTime"":0,""cpus"":4,""firstLaunchTime"":1658270269,""diskQcowCompactAfter"":262144,""useVirtualizationFramework"":false,""diskQcowKeepErased"":262144,""displayedElectronPopup"":[],""useVpnkit"":true,""kubernetesInitialInstallPerformed"":false,""licenseTermsVersion"":0,""showExtensionsSystemContainers"":false,""lastLoginDate"":0,""diskTRIM"":true,""useNightlyBuildUpdates"":false,""deprecatedCgroupv1"":false,""disableUpdate"":false,""displayedDeprecate1014"":false,""analyticsEnabled"":true,""filesharingDirectories"":[""/Users"",""/Volumes"",""/private"",""/tmp"",""/var/folders""],""credentialHelper"":""docker-credential-osxkeychain"",""useCredentialHelper"":true,""acceptCanaryUpdates"":false,""showKubernetesSystemContainers"":false,""activeOrganizationName"":"""",""tipLastId"":""..."",""vpnKitMaxPortIdleTime"":""..."",""autoStart"":false,""wslEngineEnabled"":false,""autoDownloadUpdates"":false,""vpnKitAllowedBindAddresses"":""0.0.0.0"",""diskFlush"":""os"",""diskQcowRuntimeAsserts"":false,""dataFolder"":""/Users/isabel.sanchez/Library/Containers/com.docker.docker/Data/vms/0/data"",""latestBannerKey"":"""",""disableTips"":false,""useVirtualizationFrameworkVirtioFS"":false,""memoryMiB"":8092,""proxyHttpMode"":""system"",""useWindowsContainers"":false,""dockerAppLaunchPath"":""/Applications/Docker.app"",""vpnkitCIDR"":""..."",""socksProxyPort"":0,""vpnKitTransparentProxy"":true,""disableHardwareAcceleration"":false}"
+time="2022-07-19T22:37:50Z" level="info" msg="AppDelegate: com.docker.docker process 'file:///Applications/Docker.app/Contents/MacOS/Docker' running with pid 7960"
+time="2022-07-19T22:37:50Z" level="info" msg="AppDelegate: Application version: 4.10.1 (82475)"
+time="2022-07-19T22:37:50Z" level="info" msg="AppDelegate: Channel: main"
+time="2022-07-19T22:37:50Z" level="info" msg="AppDelegate: Administrator user: true"
+time="2022-07-19T22:37:50Z" level="info" msg="Environment: macOS Version: NSOperatingSystemVersion(majorVersion: 12, minorVersion: 0, patchVersion: 1))"
+time="2022-07-19T22:37:50Z" level="error" msg="Cmd: sysctl: unknown oid 'sysctl.proc_translated'
+"
+time="2022-07-19T22:37:50Z" level="info" msg="Environment: Virtualization enabled"
+time="2022-07-19T22:37:51Z" level="error" msg="Cmd: "
+time="2022-07-19T22:37:51Z" level="info" msg="Vmnetd: Install daemon"
+time="2022-07-19T22:37:51Z" level="info" msg="Vmnetd: Non root daemon install"
+time="2022-07-19T22:37:51Z" level="info" msg="NotificationService: watching notifications"
+time="2022-07-19T22:37:51Z" level="info" msg="SwiftAPI: GUI API HTTP server starting"
+time="2022-07-19T22:37:51Z" level="debug" msg="KituraLogger: Starting Kitura framework..."
+time="2022-07-19T22:37:51Z" level="debug" msg="KituraLogger: Starting an HTTP Server on path ./backend.native.sock..."
+time="2022-07-19T22:37:51Z" level="debug" msg="KituraLogger: Listening on path ./backend.native.sock"
+time="2022-07-19T22:37:51Z" level="debug" msg="KituraLogger: Options for path ./backend.native.sock: maxPendingConnections: 100, allowPortReuse: false"
+time="2022-07-19T22:37:52Z" level="debug" msg="KituraLogger: Accepted HTTP connection from: No hostname:0"
+time="2022-07-19T22:37:52Z" level="debug" msg="KituraLogger: HTTP request from=No hostname; proto=http;"
+time="2022-07-19T22:37:52Z" level="info" msg="IPCSession: (3b069ec7) f9b4c7ea-SwiftAPI S<-C cd8ec554-BackendCMD GET /update
+github.com/docker/pinata/common/pkg/gui.(*guiClient).GetUpdateCheckState(0xc000538c60?, {0x53de9c0?, 0xc0004e04b0?})
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/pkg/gui/client.go:111 +0x47
+github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers.(*UpdateHandler).initialUpdateCheck(0xc000158370)
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers/update.go:80 +0xe2
+github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers.(*UpdateHandler).StreamEvents(0xc000158370, {0x5a614f0, 0xc000c8e0e0})
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers/update.go:68 +0x28"
+time="2022-07-19T22:37:52Z" level="info" msg="UpdateHandler: Getting update state, updateAvailableTime: 0, updateState: UpdateState(status: Docker.UpdateStatus.upToDate, targetVersion: nil, targetBuild: nil, highlights: nil)"
+time="2022-07-19T22:37:52Z" level="info" msg="IPCSession: (3b069ec7) f9b4c7ea-SwiftAPI S->C cd8ec554-BackendCMD GET /update (15.969038ms): {""updateAvailableTime"":0,""updateStatus"":""upToDate""}"
+time="2022-07-19T22:37:59Z" level="info" msg="IPCClient: b94e904a-GoBackend (5836b9e8) C->S POST /analytics/track"
+time="2022-07-19T22:37:59Z" level="info" msg="IPCClient: b94e904a-GoBackend (5836b9e8) C<-S POST /analytics/track (23.890018ms): OK"
+time="2022-07-19T22:38:05Z" level="info" msg="Vmnetd: Registering com.docker.vmnetd in domain Optional(kSMDomainSystemLaunchd)..."
+time="2022-07-19T22:38:05Z" level="info" msg="Vmnetd: registerProcess succeeded"
+time="2022-07-19T22:38:05Z" level="info" msg="Vmnetd: Privileged installation successful"
+time="2022-07-19T22:38:05Z" level="info" msg="Vmnetd: isReady: ping succeeded"
+time="2022-07-19T22:38:05Z" level="info" msg="Vmnetd: Install symlinks"
+time="2022-07-19T22:38:05Z" level="info" msg="Vmnetd: Install symlinks in path"
+time="2022-07-19T22:38:05Z" level="info" msg="Vmnetd: Ensure localhost"
+time="2022-07-19T22:38:06Z" level="info" msg="Vmnetd: Add extra hosts"
+time="2022-07-19T22:38:06Z" level="info" msg="AppDelegate: watching docker analytics"
+time="2022-07-19T22:38:06Z" level="info" msg="AppDelegate: bootstrap complete"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: ⇨ http server started on docker-cli.sock
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Channel #1] Channel created
+2022/07/19 18:38:08 INFO: [core] [Channel #1] original dial target is: """"
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Channel #1] parsed dial target is: {Scheme: Authority: Endpoint: URL:{Scheme: Opaque: User: Host: Path: RawPath: ForceQuery:false RawQuery: Fragment: RawFragment:}}
+2022/07/19 18:38:08 INFO: [core] [Channel #1] fallback to scheme ""passthrough""
+2022/07/19 18:38:08 INFO: [core] [Channel #1] parsed dial target is: {Scheme:passthrough Authority: Endpoint: URL:{Scheme:passthrough Opaque: User: Host: Path:/ RawPath: ForceQuery:false RawQuery: Fragment: RawFragment:}}
+2022/07/19 18:38:08 INFO: [core] [Channel #1] Channel authority set to """"
+2022/07/19 18:38:08 INFO: [core] [Channel #1] Resolver state updated: {
+  ""Addresses"": [
+    {
+      ""Addr"": """",
+      ""ServerName"": """",
+      ""Attributes"": null,
+      ""BalancerAttributes"": null,
+      ""Type"": 0,
+      ""Metadata"": null
+    }
+  ],
+  ""ServiceConfig"": null,
+  ""Attributes"": null
+} (resolver returned new addresses)
+2022/07/19 18:38:08 INFO: [core] [Channel #1] Channel switches to new LB policy ""pick_first""
+2022/07/19 18:38:08 INFO: [core] [Channel #1 SubChannel #2] Subchannel created
+2022/07/19 18:38:08 INFO: [core] [Channel #1 SubChannel #2] Subchannel Connectivity change to CONNECTING
+2022/07/19 18:38:08 INFO: [core] [Channel #1 SubChannel #2] Subchannel picks a new address """" to connect
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] pickfirstBalancer: UpdateSubConnState: 0xc000150e90, {CONNECTING <nil>}
+2022/07/19 18:38:08 INFO: [core] [Channel #1] Channel Connectivity change to CONNECTING
+2022/07/19 18:38:08 WARNING: [core] [Channel #1 SubChannel #2] grpc: addrConn.createTransport failed to connect to {
+  ""Addr"": """",
+  ""ServerName"": """",
+  ""Attributes"": null,
+  ""BalancerAttributes"": null,
+  ""Type"": 0,
+  ""Metadata"": null
+}. Err: connection error: desc = ""transport: Error while dialing dial unix filesystem-volume.sock: connect: no such file or directory""
+2022/07/19 18:38:08 INFO: [core] [Channel #1 SubChannel #2] Subchannel Connectivity change to TRANSIENT_FAILURE
+2022/07/19 18:38:08 INFO: [core] pickfirstBalancer: UpdateSubConnState: 0xc000150e90, {TRANSIENT_FAILURE connection error: desc = ""transport: Error while dialing dial unix filesystem-volume.sock: connect: no such file or directory""}
+2022/07/19 18:38:08 INFO: [core] [Channel #1] Channel Connectivity change to TRANSIENT_FAILURE
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Channel #3] Channel created
+2022/07/19 18:38:08 INFO: [core] [Channel #3] original dial target is: """"
+2022/07/19 18:38:08 INFO: [core] [Channel #3] parsed dial target is: {Scheme: Authority: Endpoint: URL:{Scheme: Opaque: User: Host: Path: RawPath: ForceQuery:false RawQuery: Fragment: RawFragment:}}
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Channel #3] fallback to scheme ""passthrough""
+2022/07/19 18:38:08 INFO: [core] [Channel #3] parsed dial target is: {Scheme:passthrough Authority: Endpoint: URL:{Scheme:passthrough Opaque: User: Host: Path:/ RawPath: ForceQuery:false RawQuery: Fragment: RawFragment:}}
+2022/07/19 18:38:08 INFO: [core] [Channel #3] Channel authority set to """"
+2022/07/19 18:38:08 INFO: [core] [Channel #3] Resolver state updated: {
+  ""Addresses"": [
+    {
+      ""Addr"": """",
+      ""ServerName"": """",
+      ""Attributes"": null,
+      ""BalancerAttributes"": null,
+      ""Type"": 0,
+      ""Metadata"": null
+    }
+  ],
+  ""ServiceConfig"": null,
+  ""Attributes"": null
+} (resolver returned new addresses)
+2022/07/19 18:38:08 INFO: [core] [Channel #3] Channel switches to new LB policy ""pick_first""
+2022/07/19 18:38:08 INFO: [core] [Channel #3 SubChannel #4] Subchannel created
+2022/07/19 18:38:08 INFO: [core] [Channel #3 SubChannel #4] Subchannel Connectivity change to CONNECTING
+2022/07/19 18:38:08 INFO: [core] [Channel #3 SubChannel #4] Subchannel picks a new address """" to connect
+2022/07/19 18:38:08 INFO: [core] pickfirstBalancer: UpdateSubConnState: 0xc0001927c0, {CONNECTING <nil>}
+2022/07/19 18:38:08 INFO: [core] [Channel #3] Channel Connectivity change to CONNECTING
+2022/07/19 18:38:08 WARNING: [core] [Channel #3 SubChannel #4] grpc: addrConn.createTransport failed to connect to {
+  ""Addr"": """",
+  ""ServerName"": """",
+  ""Attributes"": null,
+  ""BalancerAttributes"": null,
+  ""Type"": 0,
+  ""Metadata"": null
+}. Err: connection error: desc = ""transport: Error while dialing dial unix filesystem-event.sock: connect: no such file or directory""
+2022/07/19 18:38:08 INFO: [core] [Channel #3 SubChannel #4] Subchannel Connectivity change to TRANSIENT_FAILURE
+2022/07/19 18:38:08 INFO: [core] pickfirstBalancer: UpdateSubConnState: 0xc0001927c0, {TRANSIENT_FAILURE connection error: desc = ""transport: Error while dialing dial unix filesystem-event.sock: connect: no such file or directory""}
+2022/07/19 18:38:08 INFO: [core] [Channel #3] Channel Connectivity change to TRANSIENT_FAILURE
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Server #5] Server created
+2022/07/19 18:38:08 INFO: [core] [Server #5 ListenSocket #6] ListenSocket created
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Server #7] Server created
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Server #8] Server created
+2022/07/19 18:38:08 INFO: [core] [Server #7 ListenSocket #9] ListenSocket created
+2022/07/19 18:38:08 INFO: [core] [Server #7 ListenSocket #10] ListenSocket created
+2022/07/19 18:38:08 INFO: [core] [Server #8 ListenSocket #11] ListenSocket created
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Server #12] Server created
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Server #12 ListenSocket #13] ListenSocket created
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: 2022/07/19 18:38:08 INFO: [core] [Server #14] Server created
+2022/07/19 18:38:08 INFO: [core] [Server #14 ListenSocket #15] ListenSocket created
+"
+time="2022-07-19T22:38:08Z" level="info" msg="GoBackend: Retrieved proxy settings:
+ - http_proxy=<none>
+ - https_proxy=<none>
+ - no_proxy=*.local, 169.254/16
+"
+time="2022-07-19T22:38:08Z" level="debug" msg="KituraLogger: Accepted HTTP connection from: No hostname:0"
+time="2022-07-19T22:38:08Z" level="debug" msg="KituraLogger: HTTP request from=No hostname; proto=http;"
+time="2022-07-19T22:38:08Z" level="info" msg="IPCSession: (c5aad884) f9b4c7ea-SwiftAPI S<-C cd8ec554-BackendCMD GET /ping
+github.com/docker/pinata/common/pkg/gui.(*guiClient).Ping(0xc000002100?)
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/pkg/gui/client.go:96 +0x39
+github.com/docker/pinata/common/cmd/com.docker.backend/supervisor.(*Supervisor).StartFromSession(0xc0003d6a50, {0x0, 0x0})
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/supervisor/supervisor.go:70 +0x394
+github.com/docker/pinata/common/cmd/com.docker.backend/supervisor.(*Supervisor).Start(...)
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/supervisor/supervisor.go:45
+main.run()
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/main.go:338 +0xe1f
+main.main()
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/main.go:94 +0x25"
+time="2022-07-19T22:38:08Z" level="info" msg="IPCSession: (c5aad884) f9b4c7ea-SwiftAPI S->C cd8ec554-BackendCMD GET /ping (7.266998ms): {""serverTime"":1658270288513}"
+time="2022-07-19T22:38:08Z" level="debug" msg="KituraLogger: Accepted HTTP connection from: No hostname:0"
+time="2022-07-19T22:38:08Z" level="debug" msg="KituraLogger: HTTP request from=No hostname; proto=http;"
+time="2022-07-19T22:38:08Z" level="info" msg="IPCSession: (966cfcda-1) f9b4c7ea-SwiftAPI S<-C cd8ec554-BackendCMD POST /features/update
+github.com/docker/pinata/common/pkg/gui.(*guiClient).FeaturesUpdated(0x8000103?, 0x5a614f0?)
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/pkg/gui/client.go:106 +0x44
+github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers.registryClientImpl.featuresUpdated({{0x5a5da00, 0xc0003fa890}, {0x5a5e588, 0xc000150020}, {0x5a5d298, 0xc0003a4930}, {0x5a543d0, 0xc0003fb550}, 0xc00010efc0, {0x5a3b460, ...}, ...}, ...)
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers/login.go:200 +0x56
+github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers.(*RegistryHandler).refreshNativeFeatures(0xc000682680, 0x57c6bcd?, {0x5a614f0, 0xc000e8e2a0})
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers/login.go:898 +0xfb
+github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers.(*RegistryHandler).refreshFeatures(0xc000682680, {0x5a614f0, 0xc000e8e2a0})
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers/login.go:889 +0x16c
+github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers.(*RegistryHandler).logOut(0xc000682680, {0x5a614f0, 0xc000e8e2a0}, 0x1)
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers/login.go:731 +0x35b
+github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers.(*RegistryHandler).restoreAuth0LoginFromCredentialStore(0xc000682680, {0x5a614f0, 0xc000e8e2a0})
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers/login.go:792 +0x6a9
+github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers.(*RegistryHandler).AutoLogIn(0xc000682680, {0x5a614f0, 0xc000e8e2a0})
+	/Users/administrator/jenkins/workspace/desktop_desktop-build_4.10.x/src/github.com/docker/pinata/common/cmd/com.docker.backend/internal/handlers/login.go:753 +0x90"
+time="2022-07-19T22:38:08Z" level="info" msg="IPCSession: (966cfcda-1) f9b4c7ea-SwiftAPI S<-C cd8ec554-BackendCMD bind: [""HomeTab"": Docker.ExperimentalFeature, ""NightlyBuilds"": Docker.ExperimentalFeature, ""DesktopExtensions"": Docker.ExperimentalFeature, ""SimultaneousLinuxAndWindowsContainers"": Docker.ExperimentalFeature, ""grpcfuseV2"": Docker.ExperimentalFeature, ""ProUser"": Docker.ExperimentalFeature, ""Modules"": Docker.ExperimentalFeature]"
+time="2022-07-19T22:38:08Z" level="info" msg="IPCSession: (966cfcda-1) f9b4c7ea-SwiftAPI S->C cd8ec554-BackendCMD POST /features/update (20.097971ms): OK"
+time="2022-07-19T22:38:09Z" level="info" msg="UpdateManager: User tier: personal"
+time="2022-07-19T22:38:09Z" level="info" msg="UpdateManager: probe update"
+time="2022-07-19T22:38:09Z" level="info" msg="GoBackend: 2022/07/19 18:38:09 INFO: [core] [Channel #1 SubChannel #2] Subchannel Connectivity change to IDLE
+"
+time="2022-07-19T22:38:09Z" level="info" msg="GoBackend: 2022/07/19 18:38:09 INFO: [core] pickfirstBalancer: UpdateSubConnState: 0xc000150e90, {IDLE connection error: desc = ""transport: Error while dialing dial unix filesystem-volume.sock: connect: no such file or directory""}
+2022/07/19 18:38:09 INFO: [core] [Channel #1] Channel Connectivity change to IDLE
+"
+time="2022-07-19T22:38:09Z" level="info" msg="GoBackend: 2022/07/19 18:38:09 INFO: [core] [Channel #3 SubChannel #4] Subchannel Connectivity change to IDLE
+"
+time="2022-07-19T22:38:09Z" level="info" msg="GoBackend: 2022/07/19 18:38:09 INFO: [core] pickfirstBalancer: UpdateSubConnState: 0xc0001927c0, {IDLE connection error: desc = ""transport: Error while dialing dial unix filesystem-event.sock: connect: no such file or directory""}
+2022/07/19 18:38:09 INFO: [core] [Channel #3] Channel Connectivity change to IDLE
+"
+time="2022-07-19T22:38:09Z" level="info" msg="GoBackend: 2022/07/19 18:38:09 INFO: [core] CPU time info is unavailable on non-linux environments.
+"
+time="2022-07-19T22:38:10Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (c057d076) C->S GET /settings"
+time="2022-07-19T22:38:10Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (c057d076) C<-S GET /settings (149.172068ms): {""vpnKitMaxConnections"":2000,""showExtensionsSystemContainers"":false,""acceptCanaryUpdates"":false,""useCredentialHelper"":true,""diskQcowCompactAfter"":262144,""vpnKitMaxPortIdleTime"":""..."",""disableUpdate"":false,""disableHardwareAcceleration"":false,""firstLaunchTime"":1658270269,""socksProxyPort"":0,""kubernetesEnabled"":false,""diskQcowRuntimeAsserts"":false,""vpnkitCIDR"":""..."",""deprecatedCgroupv1"":false,""lastLoginDate"":0,""overrideProxyHttps"":""..."",""swapMiB"":1024,""filesharingDirectories"":[""/Users"",""/Volumes"",""/private"",""/tmp"",""/var/folders""],""dockerAppLaunchPath"":""/Applications/Docker.app"",""diskTRIM"":true,""tipLastViewedTime"":0,""autoStart"":false,""analyticsEnabled"":true,""displayedDeprecate1014"":false,""credentialHelper"":""docker-credential-osxkeychain"",""diskQcowKeepErased"":262144,""diskStats"":"""",""displayedTutorial"":false,""vpnKitMTU"":1500,""disableTips"":false,""tipLastId"":""..."",""latestBannerKey"":"""",""updatePopupAppearanceTime"":0,""dataFolder"":""/Users/isabel.sanchez/Library/Containers/com.docker.docker/Data/vms/0/data"",""wslEngineEnabled"":false,""vpnKitAllowedBindAddresses"":""0.0.0.0"",""updateAvailableTime"":0,""settingsVersion"":17,""useNightlyBuildUpdates"":false,""useVirtualizationFramework"":false,""cpus"":4,""useVirtualizationFrameworkVirtioFS"":false,""extensionsEnabled"":true,""kubernetesInitialInstallPerformed"":false,""overrideProxyExclude"":""..."",""useWindowsContainers"":false,""displayedElectronPopup"":[],""openUIOnStartupDisabled"":false,""displayRestartDialog"":true,""useVpnkit"":true,""licenseTermsVersion"":2,""proxyHttpMode"":""system"",""vpnKitTransparentProxy"":true,""overrideProxyHttp"":""..."",""onlyMarketplaceExtensions"":false,""backupData"":false,""autoDownloadUpdates"":false,""diskFlush"":""os"",""diskSizeMiB"":61035,""memoryMiB"":8092,""activeOrganizationName"":"""",""showKubernetesSystemContainers"":false}"
+time="2022-07-19T22:38:10Z" level="info" msg="UpdateManager: Using appcast URL: https://desktop.docker.com/mac/main/amd64/appcast.xml"
+time="2022-07-19T22:38:11Z" level="info" msg="UpdateManager: check if in rollout group (acceptCanaryUpdates false, isPayingUser false)"
+time="2022-07-19T22:38:11Z" level="info" msg="UpdateManager: in rollout group with visibility 99"
+time="2022-07-19T22:38:11Z" level="info" msg="UpdateManager: use appcast item 1 for update to version Optional(""82475"")"
+time="2022-07-19T22:38:11Z" level="info" msg="UpdateManager: appcast item has no delta updates"
+time="2022-07-19T22:38:11Z" level="info" msg="UpdateManager: check for new version from appcast item"
+time="2022-07-19T22:38:11Z" level="info" msg="UpdaterVersionMessage: Starting comparing version 82475 and 82475"
+time="2022-07-19T22:38:11Z" level="info" msg="UpdateManager: installed version up to date"
+time="2022-07-19T22:38:11Z" level="debug" msg="KituraLogger: Accepted HTTP connection from: No hostname:0"
+time="2022-07-19T22:38:11Z" level="debug" msg="KituraLogger: HTTP request from=No hostname; proto=http;"
+time="2022-07-19T22:38:11Z" level="info" msg="IPCSession: (213ad070) f9b4c7ea-SwiftAPI S<-C Docker-Desktop/4.10.1 (Mac; x64) GET /settings"
+time="2022-07-19T22:38:11Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (2f6c28c2) C->S GET /engine/daemon.json"
+time="2022-07-19T22:38:11Z" level="info" msg="IPCClient: 4e59a7c6-GoBackend (2f6c28c2) C<-S GET /engine/daemon.json (40.425062ms): {""features"":{""buildkit"":true},""builder"":{""gc"":{""defaultKeepStorage"":""20GB"",""enabled"":true}},""experimental"":false}"
+time="2022-07-19T22:38:11Z" level="info" msg="IPCSession: (213ad070) f9b4c7ea-SwiftAPI S->C Docker-Desktop/4.10.1 (Mac; x64) GET /settings (484.634042ms): {""wslIntegration"":{""distros"":[],""enableIntegrationWithDefaultWslDistro"":false},""vm"":{""proxy"":{""exclude"":"""",""http"":"""",""https"":"""",""mode"":""system""},""daemon"":""{\\""builder\\"":{\\""gc\\"":{\\""defaultKeepStorage\\"":\\""20GB\\"",\\""enabled\\"":true}},\\""experimental\\"":false,\\""features\\"":{\\""buildkit\\"":true}}\\n"",""resources"":{""cpus"":{""value"":4,""min"":1,""max"":8},""memoryMiB"":{""value"":8092,""min"":1024,""max"":16384},""diskSizeMiB"":{""value"":61035,""used"":0},""dataFolder"":""/Users/isabel.sanchez/Library/Containers/com.docker.docker/Data/vms/0/data"",""swapMiB"":{""value"":1024,""min"":512,""max"":4096}},""fileSharing"":[{""path"":""/Users""},{""path"":""/Volumes""},{""path"":""/private""},{""path"":""/tmp""},{""path"":""/var/folders""}],""kubernetes"":{""enabled"":false,""showSystemContainers"":false},""network"":{""automaticDNS"":true,""dns"":"""",""socksPort"":0,""vpnkitCIDR"":""192.168.65.0/24""}},""cli"":{""useComposeV2"":false,""useGrpcfuse"":true},""vpnkit"":{""maxConnections"":2000,""maxPortIdleTime"":300,""MTU"":1500,""allowedBindAddresses"":""0.0.0.0"",""transparentProxy"":true},""desktop"":{""autoStart"":false,""disableUpdate"":false,""tipLastId"":0,""exportInsecureDaemon"":false,""analyticsEnabled"":true,""disableTips"":false,""backupData"":false,""tipLastViewedTime"":0,""useVirtualizationFrameworkVirtioFS"":false,""useVirtualizationFramework"":false,""disableHardwareAcceleration"":false,""useNightlyBuildUpdates"":false,""autoDownloadUpdates"":false,""canUseVirtualizationFrameworkVirtioFS"":false,""useVpnkit"":true,""mustDisplayVirtualizationFrameworkSwitch"":true,""openUIOnStartupDisabled"":false,""updateAvailableTime"":0,""useCredentialHelper"":true,""displayedTutorial"":false,""canUseVirtualizationFramework"":true},""extensions"":{""enabled"":true,""onlyMarketplaceExtensions"":false,""showSystemContainers"":false}}"
+time="2022-07-19T22:38:55Z" level="error" msg="KituraLogger: Error accepting client connection: Error code: -9993(0x-2709), Invalid argument"
+time="2022-07-19T22:39:36Z" level="info" msg="GoBackend: 2022/07/19 18:39:36 INFO: [core] [Channel #1 SubChannel #2] Subchannel Connectivity change to CONNECTING
+2022/07/19 18:39:36 INFO: [core] [Channel #1 SubChannel #2] Subchannel picks a new address """" to connect
+2022/07/19 18:39:36 INFO: [core] pickfirstBalancer: UpdateSubConnState: 0xc000150e90, {CONNECTING <nil>}
+2022/07/19 18:39:36 INFO: [core] [Channel #1] Channel Connectivity change to CONNECTING
+"
+time="2022-07-19T22:39:36Z" level="info" msg="GoBackend: 2022/07/19 18:39:36 INFO: [core] [Channel #1 SubChannel #2] Subchannel Connectivity change to READY
+2022/07/19 18:39:36 INFO: [core] pickfirstBalancer: UpdateSubConnState: 0xc000150e90, {READY <nil>}
+2022/07/19 18:39:36 INFO: [core] [Channel #1] Channel Connectivity change to READY
+"
+time="2022-07-19T22:39:37Z" level="info" msg="GoBackend: time=""2022-07-19T18:39:37-04:00"" level=info msg=""Executing: [/bin/sh -c /usr/sbin/ioreg -l]""
+"
+time="2022-07-19T22:54:30Z" level="info" msg="AppDelegate: received desktop URL to handle:docker-desktop://auth0/complete-login?code=po7IJAeO-LMdrEc1bV9mB4IHekWtR7JITBWONA4-v1D3C&state=-VtRkVA0DZczyGMAXnIuM_K_fmB2vUJ1QrKTx2FkIUw"
+time="2022-07-19T22:54:30Z" level="info" msg="IPCClient: 1f6d97b4-CustomProtocolDelegator (be8f45e5) C->S POST /registry/complete-login"
+time="2022-07-19T22:54:33Z" level="info" msg="IPCClient: 1f6d97b4-CustomProtocolDelegator (be8f45e5) C<-S POST /registry/complete-login (2.649899s): OK"
+time="2022-07-19T22:54:33Z" level="info" msg="AppDelegate: forwarded auth0 login request"
